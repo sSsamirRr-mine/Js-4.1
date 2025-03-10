@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+#name,
+#number,
+header button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: none;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+section {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contact-item button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: none;
+}
